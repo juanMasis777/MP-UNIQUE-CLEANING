@@ -185,7 +185,7 @@ button, input, select, textarea { font: inherit; }
   color: white;
   box-shadow: 0 16px 30px rgba(0, 160, 183, .25);
 }
-.hero-media { min-height: 470px; }
+.hero-media { min-height: 600px; }
 .main-photo {
   position: absolute;
   inset: 0 22% 0 0;
@@ -244,8 +244,8 @@ button, input, select, textarea { font: inherit; }
 }
 .rating-card {
   position: absolute;
-  right: 12%;
-  bottom: 76px;
+  right: 0;
+  bottom: 14px;
   display: flex;
   gap: 13px;
   align-items: center;
@@ -599,7 +599,7 @@ section { padding: 54px 4.8vw; position: relative; }
 @media (max-width: 1150px) {
   .nav-links { gap: 18px; }
   .hero { grid-template-columns: 1fr; }
-  .hero-media { min-height: 560px; }
+  .hero-media { min-height: 600px; }
   .main-photo { inset: 0 0 0 0; }
   .photo-stack { width: 28%; }
   .service-grid { grid-template-columns: repeat(3, 1fr); }
