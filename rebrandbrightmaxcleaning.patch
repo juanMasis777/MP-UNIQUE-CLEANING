@@ -1,473 +1,473 @@
-From 4796fe44e6025b24fb2ef2ede52db5202f9360ff Mon Sep 17 00:00:00 2001
-From: Claude <noreply@anthropic.com>
-Date: Fri, 7 Aug 2026 04:04:06 +0000
-Subject: [PATCH] Rebrand site from MP Fresh Cleaning to Bright Max Cleaning
+  From 4796fe44e6025b24fb2ef2ede52db5202f9360ff Mon Sep 17 00:00:00 2001
+  From: Claude <noreply@anthropic.com>
+  Date: Fri, 7 Aug 2026 04:04:06 +0000
+  Subject: [PATCH] Rebrand site from MP Fresh Cleaning to Bright Max Cleaning
 
-- Update brand name across index, blog pages, script and README
-- Update slogan to 'Professional Cleaning. Brilliant Results.'
-- Change brand monogram from MP to BM (HTML and SVG logo)
-- Rename logo-mp-fresh-cleaning.svg to logo-bright-max-cleaning.svg
-- Update sitemap and robots domain to brightmaxcleaning.com
-- Update WhatsApp quote greeting
+  - Update brand name across index, blog pages, script and README
+  - Update slogan to 'Professional Cleaning. Brilliant Results.'
+  - Change brand monogram from MP to BM (HTML and SVG logo)
+  - Rename logo-mp-fresh-cleaning.svg to logo-bright-max-cleaning.svg
+  - Update sitemap and robots domain to brightmaxcleaning.com
+  - Update WhatsApp quote greeting
 
-Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_011fh33rbww27oh5yssCjz7C
----
- README.txt                                    |  4 +--
- blog/airbnb-cleaning-miami.html               | 14 +++++-----
- blog/cleaning-prices-miami.html               | 14 +++++-----
- blog/deep-cleaning-miami.html                 | 14 +++++-----
- blog/house-cleaning-checklist-miami.html      | 12 ++++-----
- blog/move-in-move-out-cleaning-miami.html     | 12 ++++-----
- blog/office-cleaning-miami.html               | 12 ++++-----
- index.html                                    | 26 +++++++++----------
- ...eaning.svg => logo-bright-max-cleaning.svg |  5 ++--
- robots.txt                                    |  2 +-
- script.js                                     |  2 +-
- sitemap.xml                                   | 14 +++++-----
- 12 files changed, 65 insertions(+), 66 deletions(-)
- rename logo-mp-fresh-cleaning.svg => logo-bright-max-cleaning.svg (74%)
+  Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+  Claude-Session: https://claude.ai/code/session_011fh33rbww27oh5yssCjz7C
+  ---
+  README.txt                                    |  4 +--
+  blog/airbnb-cleaning-miami.html               | 14 +++++-----
+  blog/cleaning-prices-miami.html               | 14 +++++-----
+  blog/deep-cleaning-miami.html                 | 14 +++++-----
+  blog/house-cleaning-checklist-miami.html      | 12 ++++-----
+  blog/move-in-move-out-cleaning-miami.html     | 12 ++++-----
+  blog/office-cleaning-miami.html               | 12 ++++-----
+  index.html                                    | 26 +++++++++----------
+  ...eaning.svg => logo-bright-max-cleaning.svg |  5 ++--
+  robots.txt                                    |  2 +-
+  script.js                                     |  2 +-
+  sitemap.xml                                   | 14 +++++-----
+  12 files changed, 65 insertions(+), 66 deletions(-)
+  rename logo-mp-fresh-cleaning.svg => logo-bright-max-cleaning.svg (74%)
 
-diff --git a/README.txt b/README.txt
-index 768f509..11a51e0 100644
---- a/README.txt
-+++ b/README.txt
-@@ -1,7 +1,7 @@
--MP Fresh Cleaning - Premium Website V5
-+Bright Max Cleaning - Premium Website V5
- 
- Cambios incluidos:
--- Nuevo logo premium en SVG: logo-mp-fresh-cleaning.svg
-+- Nuevo logo premium en SVG: logo-bright-max-cleaning.svg
- - Header corregido para que el logo no quede pegado ni desconfigurado
- - Footer corregido con el logo nuevo
- - Blogs largos para SEO
-diff --git a/blog/airbnb-cleaning-miami.html b/blog/airbnb-cleaning-miami.html
-index 45849fa..eae38e4 100644
---- a/blog/airbnb-cleaning-miami.html
-+++ b/blog/airbnb-cleaning-miami.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>Airbnb Cleaning in Miami: How to Create a 5-Star Guest Experience | MP Fresh Cleaning</title>
-+  <title>Airbnb Cleaning in Miami: How to Create a 5-Star Guest Experience | Bright Max Cleaning</title>
-   <meta name="description" content="Short-term rentals need consistent cleaning, fast turnovers, and hotel-like presentation to earn better reviews." />
-   <link rel="stylesheet" href="../styles.css" />
- </head>
-@@ -11,8 +11,8 @@
-   <div class="bubbles" aria-hidden="true"></div>
- 
-   <header class="topbar">
--    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
- 
-     <nav>
-@@ -68,8 +68,8 @@
-         </section>
- 
-         <section class="article-section">
--          <h2>How MP Fresh Cleaning helps Airbnb hosts</h2>
--          <p>MP Fresh Cleaning helps Miami Airbnb hosts with guest-ready cleaning, flexible scheduling, and detailed turnover services designed for short-term rentals. The goal is to help every stay feel clean, fresh, and professional.</p>
-+          <h2>How Bright Max Cleaning helps Airbnb hosts</h2>
-+          <p>Bright Max Cleaning helps Miami Airbnb hosts with guest-ready cleaning, flexible scheduling, and detailed turnover services designed for short-term rentals. The goal is to help every stay feel clean, fresh, and professional.</p>
-           <p>Whether your rental is in Miami Beach, Brickell, Aventura, Sunny Isles, Coconut Grove, or nearby areas, a consistent turnover cleaning system can help your business look more professional.</p>
-         </section>
- 
-@@ -86,8 +86,8 @@
- 
-   <footer class="site-footer">
-     <div>
--      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
-     </div>
-     <div>
-diff --git a/blog/cleaning-prices-miami.html b/blog/cleaning-prices-miami.html
-index 78f74ae..e613502 100644
---- a/blog/cleaning-prices-miami.html
-+++ b/blog/cleaning-prices-miami.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>Cleaning Prices in Miami: What Affects the Cost of Your Cleaning Service? | MP Fresh Cleaning</title>
-+  <title>Cleaning Prices in Miami: What Affects the Cost of Your Cleaning Service? | Bright Max Cleaning</title>
-   <meta name="description" content="Cleaning prices depend on size, service type, condition, pets, add-ons, and frequency. Here is what customers should know." />
-   <link rel="stylesheet" href="../styles.css" />
- </head>
-@@ -11,8 +11,8 @@
-   <div class="bubbles" aria-hidden="true"></div>
- 
-   <header class="topbar">
--    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
- 
-     <nav>
-@@ -68,8 +68,8 @@
-         </section>
- 
-         <section class="article-section">
--          <h2>Transparent quotes from MP Fresh Cleaning</h2>
--          <p>MP Fresh Cleaning provides clear starting prices and custom quotes based on the details of each property. This helps customers understand what they are paying for and helps the cleaning team deliver better service.</p>
-+          <h2>Transparent quotes from Bright Max Cleaning</h2>
-+          <p>Bright Max Cleaning provides clear starting prices and custom quotes based on the details of each property. This helps customers understand what they are paying for and helps the cleaning team deliver better service.</p>
-           <p>For the most accurate quote, send your location, number of bedrooms and bathrooms, type of cleaning, current condition, pets, add-ons, and preferred date. Photos or a video are highly recommended.</p>
-         </section>
- 
-@@ -86,8 +86,8 @@
- 
-   <footer class="site-footer">
-     <div>
--      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
-     </div>
-     <div>
-diff --git a/blog/deep-cleaning-miami.html b/blog/deep-cleaning-miami.html
-index 714b5eb..61de6b6 100644
---- a/blog/deep-cleaning-miami.html
-+++ b/blog/deep-cleaning-miami.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>Deep Cleaning in Miami: What It Includes and When You Need It | MP Fresh Cleaning</title>
-+  <title>Deep Cleaning in Miami: What It Includes and When You Need It | Bright Max Cleaning</title>
-   <meta name="description" content="A deep cleaning is perfect when your home needs more than a regular refresh. Learn what is included, when to book it, and how to prepare your home." />
-   <link rel="stylesheet" href="../styles.css" />
- </head>
-@@ -11,8 +11,8 @@
-   <div class="bubbles" aria-hidden="true"></div>
- 
-   <header class="topbar">
--    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
- 
-     <nav>
-@@ -68,8 +68,8 @@
-         </section>
- 
-         <section class="article-section">
--          <h2>Why MP Fresh Cleaning is a strong option</h2>
--          <p>MP Fresh Cleaning focuses on premium cleaning services in Miami with clear communication, attention to detail, and a quote process based on the real condition of the property. The goal is to make your home feel fresh, clean, and ready to enjoy.</p>
-+          <h2>Why Bright Max Cleaning is a strong option</h2>
-+          <p>Bright Max Cleaning focuses on premium cleaning services in Miami with clear communication, attention to detail, and a quote process based on the real condition of the property. The goal is to make your home feel fresh, clean, and ready to enjoy.</p>
-           <p>Whether you live in Miami, Aventura, Kendall, Miami Beach, Coral Gables, Coconut Grove, Doral, or nearby areas, a professional deep cleaning can help reset your home and create a cleaner, healthier-looking space.</p>
-         </section>
- 
-@@ -86,8 +86,8 @@
- 
-   <footer class="site-footer">
-     <div>
--      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
-     </div>
-     <div>
-diff --git a/blog/house-cleaning-checklist-miami.html b/blog/house-cleaning-checklist-miami.html
-index 397b8bd..372db3b 100644
---- a/blog/house-cleaning-checklist-miami.html
-+++ b/blog/house-cleaning-checklist-miami.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>House Cleaning Checklist: How to Know What Your Home Really Needs | MP Fresh Cleaning</title>
-+  <title>House Cleaning Checklist: How to Know What Your Home Really Needs | Bright Max Cleaning</title>
-   <meta name="description" content="Use this checklist to decide between regular cleaning, deep cleaning, move-out cleaning, or add-on services." />
-   <link rel="stylesheet" href="../styles.css" />
- </head>
-@@ -11,8 +11,8 @@
-   <div class="bubbles" aria-hidden="true"></div>
- 
-   <header class="topbar">
--    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
- 
-     <nav>
-@@ -70,7 +70,7 @@
-         <section class="article-section">
-           <h2>Information to send for a quote</h2>
-           <p>To get an accurate quote, send your city, property type, number of bedrooms, number of bathrooms, preferred date, type of service, current condition, pets, and any add-ons you want.</p>
--          <p>The best way to get a fast and accurate estimate is to send a few photos or a short video of the areas that need cleaning. MP Fresh Cleaning can then recommend the right service for your property.</p>
-+          <p>The best way to get a fast and accurate estimate is to send a few photos or a short video of the areas that need cleaning. Bright Max Cleaning can then recommend the right service for your property.</p>
-         </section>
- 
-         <div class="article-tip">Quick tip: Photos help a lot. A 30-second video can make your quote more accurate than a long text message.</div>
-@@ -86,8 +86,8 @@
- 
-   <footer class="site-footer">
-     <div>
--      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
-     </div>
-     <div>
-diff --git a/blog/move-in-move-out-cleaning-miami.html b/blog/move-in-move-out-cleaning-miami.html
-index fcc48e4..07053f6 100644
---- a/blog/move-in-move-out-cleaning-miami.html
-+++ b/blog/move-in-move-out-cleaning-miami.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>Move-In / Move-Out Cleaning: How to Leave or Enter a Home Spotless | MP Fresh Cleaning</title>
-+  <title>Move-In / Move-Out Cleaning: How to Leave or Enter a Home Spotless | Bright Max Cleaning</title>
-   <meta name="description" content="Moving is stressful. A professional move-in or move-out cleaning helps renters, landlords, realtors, and families save time." />
-   <link rel="stylesheet" href="../styles.css" />
- </head>
-@@ -11,8 +11,8 @@
-   <div class="bubbles" aria-hidden="true"></div>
- 
-   <header class="topbar">
--    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
- 
-     <nav>
-@@ -70,7 +70,7 @@
-         <section class="article-section">
-           <h2>How to get an accurate price</h2>
-           <p>To get a better quote, send the number of bedrooms and bathrooms, whether the property is empty or furnished, the current condition, the city or area, and photos or a short video. This helps avoid surprises and makes the final price more fair.</p>
--          <p>MP Fresh Cleaning can help with move-in and move-out cleaning in Miami and surrounding areas with a premium, reliable approach designed to make the property feel ready.</p>
-+          <p>Bright Max Cleaning can help with move-in and move-out cleaning in Miami and surrounding areas with a premium, reliable approach designed to make the property feel ready.</p>
-         </section>
- 
-         <div class="article-tip">Quick tip: For move-out cleaning, schedule the service after all furniture and boxes are removed. The result will be cleaner and the job will usually be easier to quote.</div>
-@@ -86,8 +86,8 @@
- 
-   <footer class="site-footer">
-     <div>
--      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
-     </div>
-     <div>
-diff --git a/blog/office-cleaning-miami.html b/blog/office-cleaning-miami.html
-index 480e5b0..d5eb8f1 100644
---- a/blog/office-cleaning-miami.html
-+++ b/blog/office-cleaning-miami.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>Office Cleaning in Miami: Why a Clean Workplace Helps Your Business | MP Fresh Cleaning</title>
-+  <title>Office Cleaning in Miami: Why a Clean Workplace Helps Your Business | Bright Max Cleaning</title>
-   <meta name="description" content="A clean office creates a better first impression and helps employees work in a fresher, more organized space." />
-   <link rel="stylesheet" href="../styles.css" />
- </head>
-@@ -11,8 +11,8 @@
-   <div class="bubbles" aria-hidden="true"></div>
- 
-   <header class="topbar">
--    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
- 
-     <nav>
-@@ -69,7 +69,7 @@
- 
-         <section class="article-section">
-           <h2>Flexible office cleaning plans</h2>
--          <p>MP Fresh Cleaning can offer one-time office cleaning or recurring plans based on your schedule, business type, and budget. The goal is to create a clean workplace without interrupting your operations.</p>
-+          <p>Bright Max Cleaning can offer one-time office cleaning or recurring plans based on your schedule, business type, and budget. The goal is to create a clean workplace without interrupting your operations.</p>
-           <p>For the best quote, send your office size, number of bathrooms, type of business, preferred schedule, and photos of the main areas.</p>
-         </section>
- 
-@@ -86,8 +86,8 @@
- 
-   <footer class="site-footer">
-     <div>
--      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
--      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
-+      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
-+      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
-     </a>
-     </div>
-     <div>
-diff --git a/index.html b/index.html
-index e4d7c27..3c619c1 100644
---- a/index.html
-+++ b/index.html
-@@ -3,7 +3,7 @@
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
--  <title>MP Fresh Cleaning | Premium Cleaning Services in Miami</title>
-+  <title>Bright Max Cleaning | Premium Cleaning Services in Miami</title>
-   <meta name="description" content="Premium residential, Airbnb, office, move-in and deep cleaning services in Miami." />
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-@@ -27,11 +27,11 @@
-   </div>
- 
-   <header class="site-header">
--    <a class="brand" href="#home" aria-label="MP Fresh Cleaning Home">
--      <span class="brand-mark">MP</span>
-+    <a class="brand" href="#home" aria-label="Bright Max Cleaning Home">
-+      <span class="brand-mark">BM</span>
-       <span class="brand-copy">
--        <strong>MP Fresh Cleaning</strong>
--        <small>Sparkling spaces. Happier places.</small>
-+        <strong>Bright Max Cleaning</strong>
-+        <small>Professional Cleaning. Brilliant Results.</small>
-       </span>
-     </a>
- 
-@@ -85,7 +85,7 @@
-         <div class="main-photo photo-card">
-           <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80" alt="Luxury clean living room in Miami" />
-           <div class="photo-overlay cleaner-action">
--            <span>MP</span>
-+            <span>BM</span>
-             <b data-en="Luxury Home Care" data-es="Cuidado Premium">Luxury Home Care</b>
-           </div>
-         </div>
-@@ -242,7 +242,7 @@
-       <div class="gallery-copy reveal">
-         <p class="eyebrow" data-en="SEE THE DIFFERENCE" data-es="MIRA LA DIFERENCIA">SEE THE DIFFERENCE</p>
-         <h2 data-en="Before & After Results" data-es="Resultados Antes y Después">Before & After Results</h2>
--        <p data-en="Real results. Real pride. See the MP Fresh Cleaning difference." data-es="Resultados reales. Mira la diferencia de MP Fresh Cleaning.">Real results. Real pride. See the MP Fresh Cleaning difference.</p>
-+        <p data-en="Real results. Real pride. See the Bright Max Cleaning difference." data-es="Resultados reales. Mira la diferencia de Bright Max Cleaning.">Real results. Real pride. See the Bright Max Cleaning difference.</p>
-         <a class="btn btn-solid" href="#contact" data-en="View Full Gallery →" data-es="Ver Galería →">View Full Gallery →</a>
-       </div>
-       <div class="gallery-cards reveal delay-1">
-@@ -321,7 +321,7 @@
-         <div>
-           <p class="eyebrow" data-en="CLEANING TIPS & SEO BLOG" data-es="BLOG DE LIMPIEZA Y CONSEJOS">CLEANING TIPS & SEO BLOG</p>
-           <h2 data-en="Helpful Cleaning Guides for Miami Homes & Businesses" data-es="Guías útiles de limpieza para hogares y negocios en Miami">Helpful Cleaning Guides for Miami Homes & Businesses</h2>
--          <p data-en="Fresh articles designed to answer customer questions, build trust and help MP Fresh Cleaning rank better on Google." data-es="Artículos creados para responder preguntas de clientes, generar confianza y ayudar a MP Fresh Cleaning a posicionarse mejor en Google.">Fresh articles designed to answer customer questions, build trust and help MP Fresh Cleaning rank better on Google.</p>
-+          <p data-en="Fresh articles designed to answer customer questions, build trust and help Bright Max Cleaning rank better on Google." data-es="Artículos creados para responder preguntas de clientes, generar confianza y ayudar a Bright Max Cleaning a posicionarse mejor en Google.">Fresh articles designed to answer customer questions, build trust and help Bright Max Cleaning rank better on Google.</p>
-         </div>
-         <a class="ghost-btn" href="#contact" data-en="Request a Quote →" data-es="Pedir Cotización →">Request a Quote →</a>
-       </div>
-@@ -406,7 +406,7 @@
-     <section class="final-cta reveal">
-       <div>
-         <p>🏆 QUALITY. TRUST. EXCELLENCE.</p>
--        <h2 data-en="Experience the MP Fresh Cleaning Difference" data-es="Vive la diferencia de MP Fresh Cleaning">Experience the MP Fresh Cleaning Difference</h2>
-+        <h2 data-en="Experience the Bright Max Cleaning Difference" data-es="Vive la diferencia de Bright Max Cleaning">Experience the Bright Max Cleaning Difference</h2>
-         <span data-en="Premium service, exceptional results, every time." data-es="Servicio premium y resultados excepcionales, siempre.">Premium service, exceptional results, every time.</span>
-       </div>
-       <a class="btn btn-whatsapp" href="https://wa.me/13055550198" target="_blank" rel="noreferrer">
-@@ -418,10 +418,10 @@
- 
-   <footer class="footer">
-     <div class="brand footer-brand">
--      <span class="brand-mark">MP</span>
-+      <span class="brand-mark">BM</span>
-       <span class="brand-copy">
--        <strong>MP Fresh Cleaning</strong>
--        <small>Sparkling spaces. Happier places.</small>
-+        <strong>Bright Max Cleaning</strong>
-+        <small>Professional Cleaning. Brilliant Results.</small>
-       </span>
-     </div>
-     <div>
-@@ -440,7 +440,7 @@
-     <div>
-       <b>Follow Us</b>
-       <span class="socials">● ● ● ●</span>
--      <small>© 2026 MP Fresh Cleaning. All rights reserved.</small>
-+      <small>© 2026 Bright Max Cleaning. All rights reserved.</small>
-     </div>
-   </footer>
- 
-diff --git a/logo-mp-fresh-cleaning.svg b/logo-bright-max-cleaning.svg
-similarity index 74%
-rename from logo-mp-fresh-cleaning.svg
-rename to logo-bright-max-cleaning.svg
-index 0c573d6..0bdf113 100644
---- a/logo-mp-fresh-cleaning.svg
-+++ b/logo-bright-max-cleaning.svg
-@@ -15,14 +15,13 @@
-   </defs>
- 
-   <g filter="url(#shadow)">
--    <path d="M9 58.5L22.4 17H34.8L43.8 39.2L62.2 17H75.8L66.4 58.5H54.2L59.5 34.9L43.2 54.7H38.4L29.3 34.7L23.1 58.5H9Z" fill="url(#g1)"/>
--    <path d="M70.7 58.5L79.9 17H101.8C108.7 17 113.7 18.5 116.7 21.5C119.8 24.5 120.6 28.7 119.2 34.1C118 39.2 115.2 43.2 110.9 46.1C106.6 49 101.3 50.5 95 50.5H86.7L84.9 58.5H70.7ZM89.1 39.9H96.9C101.4 39.9 104.3 37.9 105.4 34C106.4 30.2 104.4 28.3 99.3 28.3H91.7L89.1 39.9Z" fill="url(#g1)"/>
-+    <text x="6" y="55" font-family="Montserrat, Arial, sans-serif" font-size="48" font-weight="900" fill="url(#g1)" letter-spacing="-1">BM</text>
-     <circle cx="10" cy="15" r="3" fill="#BFFFFF"/>
-     <path d="M15.5 5L17.5 10.6L23 12.5L17.5 14.4L15.5 20L13.5 14.4L8 12.5L13.5 10.6L15.5 5Z" fill="#DFFFFF"/>
-   </g>
- 
-   <g>
--    <text x="130" y="33" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">MP FRESH</text>
-+    <text x="130" y="33" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">BRIGHT MAX</text>
-     <text x="130" y="56" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">CLEANING</text>
-     <rect x="129" y="63" width="150" height="4" rx="2" fill="url(#g1)" opacity="0.95"/>
-   </g>
-diff --git a/robots.txt b/robots.txt
-index 72bec65..b93f6ed 100644
---- a/robots.txt
-+++ b/robots.txt
-@@ -1,3 +1,3 @@
- User-agent: *
- Allow: /
--Sitemap: https://mpfreshcleaning.com/sitemap.xml
-+Sitemap: https://brightmaxcleaning.com/sitemap.xml
-diff --git a/script.js b/script.js
-index 8ddee4e..0d47cad 100644
---- a/script.js
-+++ b/script.js
-@@ -52,7 +52,7 @@ function buildWhatsAppMessage() {
-   const date = document.getElementById("date").value.trim();
-   const details = document.getElementById("details").value.trim();
- 
--  return `Hello MP Fresh Cleaning! I would like a free quote.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0AProperty Type: ${encodeURIComponent(property)}%0APreferred Date: ${encodeURIComponent(date)}%0ADetails: ${encodeURIComponent(details)}`;
-+  return `Hello Bright Max Cleaning! I would like a free quote.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0AProperty Type: ${encodeURIComponent(property)}%0APreferred Date: ${encodeURIComponent(date)}%0ADetails: ${encodeURIComponent(details)}`;
- }
- 
- quoteForm?.addEventListener("submit", (event) => {
-diff --git a/sitemap.xml b/sitemap.xml
-index d909cdc..12341bb 100644
---- a/sitemap.xml
-+++ b/sitemap.xml
-@@ -1,10 +1,10 @@
- <?xml version="1.0" encoding="UTF-8"?>
- <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
--  <url><loc>https://mpfreshcleaning.com/</loc></url>
--  <url><loc>https://mpfreshcleaning.com/blog/deep-cleaning-miami.html</loc></url>
--  <url><loc>https://mpfreshcleaning.com/blog/move-in-move-out-cleaning-miami.html</loc></url>
--  <url><loc>https://mpfreshcleaning.com/blog/airbnb-cleaning-miami.html</loc></url>
--  <url><loc>https://mpfreshcleaning.com/blog/house-cleaning-checklist-miami.html</loc></url>
--  <url><loc>https://mpfreshcleaning.com/blog/office-cleaning-miami.html</loc></url>
--  <url><loc>https://mpfreshcleaning.com/blog/cleaning-prices-miami.html</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/blog/deep-cleaning-miami.html</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/blog/move-in-move-out-cleaning-miami.html</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/blog/airbnb-cleaning-miami.html</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/blog/house-cleaning-checklist-miami.html</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/blog/office-cleaning-miami.html</loc></url>
-+  <url><loc>https://brightmaxcleaning.com/blog/cleaning-prices-miami.html</loc></url>
- </urlset>
--- 
-2.43.0
+  diff --git a/README.txt b/README.txt
+  index 768f509..11a51e0 100644
+  --- a/README.txt
+  +++ b/README.txt
+  @@ -1,7 +1,7 @@
+  -MP Fresh Cleaning - Premium Website V5
+  +Bright Max Cleaning - Premium Website V5
+  
+  Cambios incluidos:
+  -- Nuevo logo premium en SVG: logo-mp-fresh-cleaning.svg
+  +- Nuevo logo premium en SVG: logo-bright-max-cleaning.svg
+  - Header corregido para que el logo no quede pegado ni desconfigurado
+  - Footer corregido con el logo nuevo
+  - Blogs largos para SEO
+  diff --git a/blog/airbnb-cleaning-miami.html b/blog/airbnb-cleaning-miami.html
+  index 45849fa..eae38e4 100644
+  --- a/blog/airbnb-cleaning-miami.html
+  +++ b/blog/airbnb-cleaning-miami.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>Airbnb Cleaning in Miami: How to Create a 5-Star Guest Experience | MP Fresh Cleaning</title>
+  +  <title>Airbnb Cleaning in Miami: How to Create a 5-Star Guest Experience | Bright Max Cleaning</title>
+    <meta name="description" content="Short-term rentals need consistent cleaning, fast turnovers, and hotel-like presentation to earn better reviews." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  @@ -11,8 +11,8 @@
+    <div class="bubbles" aria-hidden="true"></div>
+  
+    <header class="topbar">
+  -    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+  
+      <nav>
+  @@ -68,8 +68,8 @@
+          </section>
+  
+          <section class="article-section">
+  -          <h2>How MP Fresh Cleaning helps Airbnb hosts</h2>
+  -          <p>MP Fresh Cleaning helps Miami Airbnb hosts with guest-ready cleaning, flexible scheduling, and detailed turnover services designed for short-term rentals. The goal is to help every stay feel clean, fresh, and professional.</p>
+  +          <h2>How Bright Max Cleaning helps Airbnb hosts</h2>
+  +          <p>Bright Max Cleaning helps Miami Airbnb hosts with guest-ready cleaning, flexible scheduling, and detailed turnover services designed for short-term rentals. The goal is to help every stay feel clean, fresh, and professional.</p>
+            <p>Whether your rental is in Miami Beach, Brickell, Aventura, Sunny Isles, Coconut Grove, or nearby areas, a consistent turnover cleaning system can help your business look more professional.</p>
+          </section>
+  
+  @@ -86,8 +86,8 @@
+  
+    <footer class="site-footer">
+      <div>
+  -      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+      </div>
+      <div>
+  diff --git a/blog/cleaning-prices-miami.html b/blog/cleaning-prices-miami.html
+  index 78f74ae..e613502 100644
+  --- a/blog/cleaning-prices-miami.html
+  +++ b/blog/cleaning-prices-miami.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>Cleaning Prices in Miami: What Affects the Cost of Your Cleaning Service? | MP Fresh Cleaning</title>
+  +  <title>Cleaning Prices in Miami: What Affects the Cost of Your Cleaning Service? | Bright Max Cleaning</title>
+    <meta name="description" content="Cleaning prices depend on size, service type, condition, pets, add-ons, and frequency. Here is what customers should know." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  @@ -11,8 +11,8 @@
+    <div class="bubbles" aria-hidden="true"></div>
+  
+    <header class="topbar">
+  -    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+  
+      <nav>
+  @@ -68,8 +68,8 @@
+          </section>
+  
+          <section class="article-section">
+  -          <h2>Transparent quotes from MP Fresh Cleaning</h2>
+  -          <p>MP Fresh Cleaning provides clear starting prices and custom quotes based on the details of each property. This helps customers understand what they are paying for and helps the cleaning team deliver better service.</p>
+  +          <h2>Transparent quotes from Bright Max Cleaning</h2>
+  +          <p>Bright Max Cleaning provides clear starting prices and custom quotes based on the details of each property. This helps customers understand what they are paying for and helps the cleaning team deliver better service.</p>
+            <p>For the most accurate quote, send your location, number of bedrooms and bathrooms, type of cleaning, current condition, pets, add-ons, and preferred date. Photos or a video are highly recommended.</p>
+          </section>
+  
+  @@ -86,8 +86,8 @@
+  
+    <footer class="site-footer">
+      <div>
+  -      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+      </div>
+      <div>
+  diff --git a/blog/deep-cleaning-miami.html b/blog/deep-cleaning-miami.html
+  index 714b5eb..61de6b6 100644
+  --- a/blog/deep-cleaning-miami.html
+  +++ b/blog/deep-cleaning-miami.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>Deep Cleaning in Miami: What It Includes and When You Need It | MP Fresh Cleaning</title>
+  +  <title>Deep Cleaning in Miami: What It Includes and When You Need It | Bright Max Cleaning</title>
+    <meta name="description" content="A deep cleaning is perfect when your home needs more than a regular refresh. Learn what is included, when to book it, and how to prepare your home." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  @@ -11,8 +11,8 @@
+    <div class="bubbles" aria-hidden="true"></div>
+  
+    <header class="topbar">
+  -    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+  
+      <nav>
+  @@ -68,8 +68,8 @@
+          </section>
+  
+          <section class="article-section">
+  -          <h2>Why MP Fresh Cleaning is a strong option</h2>
+  -          <p>MP Fresh Cleaning focuses on premium cleaning services in Miami with clear communication, attention to detail, and a quote process based on the real condition of the property. The goal is to make your home feel fresh, clean, and ready to enjoy.</p>
+  +          <h2>Why Bright Max Cleaning is a strong option</h2>
+  +          <p>Bright Max Cleaning focuses on premium cleaning services in Miami with clear communication, attention to detail, and a quote process based on the real condition of the property. The goal is to make your home feel fresh, clean, and ready to enjoy.</p>
+            <p>Whether you live in Miami, Aventura, Kendall, Miami Beach, Coral Gables, Coconut Grove, Doral, or nearby areas, a professional deep cleaning can help reset your home and create a cleaner, healthier-looking space.</p>
+          </section>
+  
+  @@ -86,8 +86,8 @@
+  
+    <footer class="site-footer">
+      <div>
+  -      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+      </div>
+      <div>
+  diff --git a/blog/house-cleaning-checklist-miami.html b/blog/house-cleaning-checklist-miami.html
+  index 397b8bd..372db3b 100644
+  --- a/blog/house-cleaning-checklist-miami.html
+  +++ b/blog/house-cleaning-checklist-miami.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>House Cleaning Checklist: How to Know What Your Home Really Needs | MP Fresh Cleaning</title>
+  +  <title>House Cleaning Checklist: How to Know What Your Home Really Needs | Bright Max Cleaning</title>
+    <meta name="description" content="Use this checklist to decide between regular cleaning, deep cleaning, move-out cleaning, or add-on services." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  @@ -11,8 +11,8 @@
+    <div class="bubbles" aria-hidden="true"></div>
+  
+    <header class="topbar">
+  -    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+  
+      <nav>
+  @@ -70,7 +70,7 @@
+          <section class="article-section">
+            <h2>Information to send for a quote</h2>
+            <p>To get an accurate quote, send your city, property type, number of bedrooms, number of bathrooms, preferred date, type of service, current condition, pets, and any add-ons you want.</p>
+  -          <p>The best way to get a fast and accurate estimate is to send a few photos or a short video of the areas that need cleaning. MP Fresh Cleaning can then recommend the right service for your property.</p>
+  +          <p>The best way to get a fast and accurate estimate is to send a few photos or a short video of the areas that need cleaning. Bright Max Cleaning can then recommend the right service for your property.</p>
+          </section>
+  
+          <div class="article-tip">Quick tip: Photos help a lot. A 30-second video can make your quote more accurate than a long text message.</div>
+  @@ -86,8 +86,8 @@
+  
+    <footer class="site-footer">
+      <div>
+  -      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+      </div>
+      <div>
+  diff --git a/blog/move-in-move-out-cleaning-miami.html b/blog/move-in-move-out-cleaning-miami.html
+  index fcc48e4..07053f6 100644
+  --- a/blog/move-in-move-out-cleaning-miami.html
+  +++ b/blog/move-in-move-out-cleaning-miami.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>Move-In / Move-Out Cleaning: How to Leave or Enter a Home Spotless | MP Fresh Cleaning</title>
+  +  <title>Move-In / Move-Out Cleaning: How to Leave or Enter a Home Spotless | Bright Max Cleaning</title>
+    <meta name="description" content="Moving is stressful. A professional move-in or move-out cleaning helps renters, landlords, realtors, and families save time." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  @@ -11,8 +11,8 @@
+    <div class="bubbles" aria-hidden="true"></div>
+  
+    <header class="topbar">
+  -    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+  
+      <nav>
+  @@ -70,7 +70,7 @@
+          <section class="article-section">
+            <h2>How to get an accurate price</h2>
+            <p>To get a better quote, send the number of bedrooms and bathrooms, whether the property is empty or furnished, the current condition, the city or area, and photos or a short video. This helps avoid surprises and makes the final price more fair.</p>
+  -          <p>MP Fresh Cleaning can help with move-in and move-out cleaning in Miami and surrounding areas with a premium, reliable approach designed to make the property feel ready.</p>
+  +          <p>Bright Max Cleaning can help with move-in and move-out cleaning in Miami and surrounding areas with a premium, reliable approach designed to make the property feel ready.</p>
+          </section>
+  
+          <div class="article-tip">Quick tip: For move-out cleaning, schedule the service after all furniture and boxes are removed. The result will be cleaner and the job will usually be easier to quote.</div>
+  @@ -86,8 +86,8 @@
+  
+    <footer class="site-footer">
+      <div>
+  -      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+      </div>
+      <div>
+  diff --git a/blog/office-cleaning-miami.html b/blog/office-cleaning-miami.html
+  index 480e5b0..d5eb8f1 100644
+  --- a/blog/office-cleaning-miami.html
+  +++ b/blog/office-cleaning-miami.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>Office Cleaning in Miami: Why a Clean Workplace Helps Your Business | MP Fresh Cleaning</title>
+  +  <title>Office Cleaning in Miami: Why a Clean Workplace Helps Your Business | Bright Max Cleaning</title>
+    <meta name="description" content="A clean office creates a better first impression and helps employees work in a fresher, more organized space." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  @@ -11,8 +11,8 @@
+    <div class="bubbles" aria-hidden="true"></div>
+  
+    <header class="topbar">
+  -    <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +    <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+  
+      <nav>
+  @@ -69,7 +69,7 @@
+  
+          <section class="article-section">
+            <h2>Flexible office cleaning plans</h2>
+  -          <p>MP Fresh Cleaning can offer one-time office cleaning or recurring plans based on your schedule, business type, and budget. The goal is to create a clean workplace without interrupting your operations.</p>
+  +          <p>Bright Max Cleaning can offer one-time office cleaning or recurring plans based on your schedule, business type, and budget. The goal is to create a clean workplace without interrupting your operations.</p>
+            <p>For the best quote, send your office size, number of bathrooms, type of business, preferred schedule, and photos of the main areas.</p>
+          </section>
+  
+  @@ -86,8 +86,8 @@
+  
+    <footer class="site-footer">
+      <div>
+  -      <a class="brand brand-premium" href="../index.html" aria-label="MP Fresh Cleaning home">
+  -      <img src="../logo-mp-fresh-cleaning.svg" alt="MP Fresh Cleaning logo" />
+  +      <a class="brand brand-premium" href="../index.html" aria-label="Bright Max Cleaning home">
+  +      <img src="../logo-bright-max-cleaning.svg" alt="Bright Max Cleaning logo" />
+      </a>
+      </div>
+      <div>
+  diff --git a/index.html b/index.html
+  index e4d7c27..3c619c1 100644
+  --- a/index.html
+  +++ b/index.html
+  @@ -3,7 +3,7 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  -  <title>MP Fresh Cleaning | Premium Cleaning Services in Miami</title>
+  +  <title>Bright Max Cleaning | Premium Cleaning Services in Miami</title>
+    <meta name="description" content="Premium residential, Airbnb, office, move-in and deep cleaning services in Miami." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  @@ -27,11 +27,11 @@
+    </div>
+  
+    <header class="site-header">
+  -    <a class="brand" href="#home" aria-label="MP Fresh Cleaning Home">
+  -      <span class="brand-mark">MP</span>
+  +    <a class="brand" href="#home" aria-label="Bright Max Cleaning Home">
+  +      <span class="brand-mark">BM</span>
+        <span class="brand-copy">
+  -        <strong>MP Fresh Cleaning</strong>
+  -        <small>Sparkling spaces. Happier places.</small>
+  +        <strong>Bright Max Cleaning</strong>
+  +        <small>Professional Cleaning. Brilliant Results.</small>
+        </span>
+      </a>
+  
+  @@ -85,7 +85,7 @@
+          <div class="main-photo photo-card">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80" alt="Luxury clean living room in Miami" />
+            <div class="photo-overlay cleaner-action">
+  -            <span>MP</span>
+  +            <span>BM</span>
+              <b data-en="Luxury Home Care" data-es="Cuidado Premium">Luxury Home Care</b>
+            </div>
+          </div>
+  @@ -242,7 +242,7 @@
+        <div class="gallery-copy reveal">
+          <p class="eyebrow" data-en="SEE THE DIFFERENCE" data-es="MIRA LA DIFERENCIA">SEE THE DIFFERENCE</p>
+          <h2 data-en="Before & After Results" data-es="Resultados Antes y Después">Before & After Results</h2>
+  -        <p data-en="Real results. Real pride. See the MP Fresh Cleaning difference." data-es="Resultados reales. Mira la diferencia de MP Fresh Cleaning.">Real results. Real pride. See the MP Fresh Cleaning difference.</p>
+  +        <p data-en="Real results. Real pride. See the Bright Max Cleaning difference." data-es="Resultados reales. Mira la diferencia de Bright Max Cleaning.">Real results. Real pride. See the Bright Max Cleaning difference.</p>
+          <a class="btn btn-solid" href="#contact" data-en="View Full Gallery →" data-es="Ver Galería →">View Full Gallery →</a>
+        </div>
+        <div class="gallery-cards reveal delay-1">
+  @@ -321,7 +321,7 @@
+          <div>
+            <p class="eyebrow" data-en="CLEANING TIPS & SEO BLOG" data-es="BLOG DE LIMPIEZA Y CONSEJOS">CLEANING TIPS & SEO BLOG</p>
+            <h2 data-en="Helpful Cleaning Guides for Miami Homes & Businesses" data-es="Guías útiles de limpieza para hogares y negocios en Miami">Helpful Cleaning Guides for Miami Homes & Businesses</h2>
+  -          <p data-en="Fresh articles designed to answer customer questions, build trust and help MP Fresh Cleaning rank better on Google." data-es="Artículos creados para responder preguntas de clientes, generar confianza y ayudar a MP Fresh Cleaning a posicionarse mejor en Google.">Fresh articles designed to answer customer questions, build trust and help MP Fresh Cleaning rank better on Google.</p>
+  +          <p data-en="Fresh articles designed to answer customer questions, build trust and help Bright Max Cleaning rank better on Google." data-es="Artículos creados para responder preguntas de clientes, generar confianza y ayudar a Bright Max Cleaning a posicionarse mejor en Google.">Fresh articles designed to answer customer questions, build trust and help Bright Max Cleaning rank better on Google.</p>
+          </div>
+          <a class="ghost-btn" href="#contact" data-en="Request a Quote →" data-es="Pedir Cotización →">Request a Quote →</a>
+        </div>
+  @@ -406,7 +406,7 @@
+      <section class="final-cta reveal">
+        <div>
+          <p>🏆 QUALITY. TRUST. EXCELLENCE.</p>
+  -        <h2 data-en="Experience the MP Fresh Cleaning Difference" data-es="Vive la diferencia de MP Fresh Cleaning">Experience the MP Fresh Cleaning Difference</h2>
+  +        <h2 data-en="Experience the Bright Max Cleaning Difference" data-es="Vive la diferencia de Bright Max Cleaning">Experience the Bright Max Cleaning Difference</h2>
+          <span data-en="Premium service, exceptional results, every time." data-es="Servicio premium y resultados excepcionales, siempre.">Premium service, exceptional results, every time.</span>
+        </div>
+        <a class="btn btn-whatsapp" href="https://wa.me/13055550198" target="_blank" rel="noreferrer">
+  @@ -418,10 +418,10 @@
+  
+    <footer class="footer">
+      <div class="brand footer-brand">
+  -      <span class="brand-mark">MP</span>
+  +      <span class="brand-mark">BM</span>
+        <span class="brand-copy">
+  -        <strong>MP Fresh Cleaning</strong>
+  -        <small>Sparkling spaces. Happier places.</small>
+  +        <strong>Bright Max Cleaning</strong>
+  +        <small>Professional Cleaning. Brilliant Results.</small>
+        </span>
+      </div>
+      <div>
+  @@ -440,7 +440,7 @@
+      <div>
+        <b>Follow Us</b>
+        <span class="socials">● ● ● ●</span>
+  -      <small>© 2026 MP Fresh Cleaning. All rights reserved.</small>
+  +      <small>© 2026 Bright Max Cleaning. All rights reserved.</small>
+      </div>
+    </footer>
+  
+  diff --git a/logo-mp-fresh-cleaning.svg b/logo-bright-max-cleaning.svg
+  similarity index 74%
+  rename from logo-mp-fresh-cleaning.svg
+  rename to logo-bright-max-cleaning.svg
+  index 0c573d6..0bdf113 100644
+  --- a/logo-mp-fresh-cleaning.svg
+  +++ b/logo-bright-max-cleaning.svg
+  @@ -15,14 +15,13 @@
+    </defs>
+  
+    <g filter="url(#shadow)">
+  -    <path d="M9 58.5L22.4 17H34.8L43.8 39.2L62.2 17H75.8L66.4 58.5H54.2L59.5 34.9L43.2 54.7H38.4L29.3 34.7L23.1 58.5H9Z" fill="url(#g1)"/>
+  -    <path d="M70.7 58.5L79.9 17H101.8C108.7 17 113.7 18.5 116.7 21.5C119.8 24.5 120.6 28.7 119.2 34.1C118 39.2 115.2 43.2 110.9 46.1C106.6 49 101.3 50.5 95 50.5H86.7L84.9 58.5H70.7ZM89.1 39.9H96.9C101.4 39.9 104.3 37.9 105.4 34C106.4 30.2 104.4 28.3 99.3 28.3H91.7L89.1 39.9Z" fill="url(#g1)"/>
+  +    <text x="6" y="55" font-family="Montserrat, Arial, sans-serif" font-size="48" font-weight="900" fill="url(#g1)" letter-spacing="-1">BM</text>
+      <circle cx="10" cy="15" r="3" fill="#BFFFFF"/>
+      <path d="M15.5 5L17.5 10.6L23 12.5L17.5 14.4L15.5 20L13.5 14.4L8 12.5L13.5 10.6L15.5 5Z" fill="#DFFFFF"/>
+    </g>
+  
+    <g>
+  -    <text x="130" y="33" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">MP FRESH</text>
+  +    <text x="130" y="33" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">BRIGHT MAX</text>
+      <text x="130" y="56" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">CLEANING</text>
+      <rect x="129" y="63" width="150" height="4" rx="2" fill="url(#g1)" opacity="0.95"/>
+    </g>
+  diff --git a/robots.txt b/robots.txt
+  index 72bec65..b93f6ed 100644
+  --- a/robots.txt
+  +++ b/robots.txt
+  @@ -1,3 +1,3 @@
+  User-agent: *
+  Allow: /
+  -Sitemap: https://mpfreshcleaning.com/sitemap.xml
+  +Sitemap: https://brightmaxcleaning.com/sitemap.xml
+  diff --git a/script.js b/script.js
+  index 8ddee4e..0d47cad 100644
+  --- a/script.js
+  +++ b/script.js
+  @@ -52,7 +52,7 @@ function buildWhatsAppMessage() {
+    const date = document.getElementById("date").value.trim();
+    const details = document.getElementById("details").value.trim();
+  
+  -  return `Hello MP Fresh Cleaning! I would like a free quote.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0AProperty Type: ${encodeURIComponent(property)}%0APreferred Date: ${encodeURIComponent(date)}%0ADetails: ${encodeURIComponent(details)}`;
+  +  return `Hello Bright Max Cleaning! I would like a free quote.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0AProperty Type: ${encodeURIComponent(property)}%0APreferred Date: ${encodeURIComponent(date)}%0ADetails: ${encodeURIComponent(details)}`;
+  }
+  
+  quoteForm?.addEventListener("submit", (event) => {
+  diff --git a/sitemap.xml b/sitemap.xml
+  index d909cdc..12341bb 100644
+  --- a/sitemap.xml
+  +++ b/sitemap.xml
+  @@ -1,10 +1,10 @@
+  <?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  -  <url><loc>https://mpfreshcleaning.com/</loc></url>
+  -  <url><loc>https://mpfreshcleaning.com/blog/deep-cleaning-miami.html</loc></url>
+  -  <url><loc>https://mpfreshcleaning.com/blog/move-in-move-out-cleaning-miami.html</loc></url>
+  -  <url><loc>https://mpfreshcleaning.com/blog/airbnb-cleaning-miami.html</loc></url>
+  -  <url><loc>https://mpfreshcleaning.com/blog/house-cleaning-checklist-miami.html</loc></url>
+  -  <url><loc>https://mpfreshcleaning.com/blog/office-cleaning-miami.html</loc></url>
+  -  <url><loc>https://mpfreshcleaning.com/blog/cleaning-prices-miami.html</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/blog/deep-cleaning-miami.html</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/blog/move-in-move-out-cleaning-miami.html</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/blog/airbnb-cleaning-miami.html</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/blog/house-cleaning-checklist-miami.html</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/blog/office-cleaning-miami.html</loc></url>
+  +  <url><loc>https://brightmaxcleaning.com/blog/cleaning-prices-miami.html</loc></url>
+  </urlset>
+  -- 
+  2.43.0
 

@@ -1,0 +1,79 @@
+From 4442f2d2d872137090bc8420cd4b7893addc56df Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 7 Aug 2026 04:30:18 +0000
+Subject: [PATCH] Add House/Apt and Restaurant Kitchen cleaning services to
+ pricing
+
+- Add House / Apt Cleaning card (from $110)
+- Add Restaurant Kitchen Cleaning card ($550 to $3,000, price depends on size, grease and equipment)
+- Switch pricing grid to a centered flexible layout so 7 cards stay balanced
+- Add both services to the contact form dropdown
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_011fh33rbww27oh5yssCjz7C
+---
+ index.html | 18 ++++++++++++++++++
+ styles.css |  7 +++++--
+ 2 files changed, 23 insertions(+), 2 deletions(-)
+
+diff --git a/index.html b/index.html
+index 3c619c1..d9389d8 100644
+--- a/index.html
++++ b/index.html
+@@ -228,6 +228,22 @@
+           <p data-en="Customized plans for your business." data-es="Planes personalizados para tu negocio.">Customized plans for your business.</p>
+           <a href="#contact" data-en="Book Now" data-es="Reservar">Book Now</a>
+         </article>
++        <article class="price-card reveal delay-2">
++          <span>🏘️</span>
++          <h3 data-en="House / Apt Cleaning" data-es="Casas y Apartamentos">House / Apt Cleaning</h3>
++          <small data-en="From" data-es="Desde">From</small>
++          <strong>$110</strong>
++          <p data-en="Complete cleaning for houses and apartments of any size." data-es="Limpieza completa para casas y apartamentos de cualquier tamaño.">Complete cleaning for houses and apartments of any size.</p>
++          <a href="#contact" data-en="Book Now" data-es="Reservar">Book Now</a>
++        </article>
++        <article class="price-card reveal">
++          <span>🍳</span>
++          <h3 data-en="Restaurant Kitchen Cleaning" data-es="Cocina de Restaurante">Restaurant Kitchen Cleaning</h3>
++          <small data-en="From" data-es="Desde">From</small>
++          <strong>$550<em> to $3,000</em></strong>
++          <p data-en="Commercial kitchen deep cleaning. Final price depends on size, grease level, and equipment." data-es="Limpieza profunda de cocina comercial. El precio final depende del tamaño, la grasa acumulada y el equipo.">Commercial kitchen deep cleaning. Final price depends on size, grease level, and equipment.</p>
++          <a href="#contact" data-en="Book Now" data-es="Reservar">Book Now</a>
++        </article>
+       </div>
+ 
+       <div class="price-notes reveal">
+@@ -299,6 +315,8 @@
+             <option>Move In / Out Cleaning</option>
+             <option>Airbnb Cleaning</option>
+             <option>Office Cleaning</option>
++            <option>House / Apt Cleaning</option>
++            <option>Restaurant Kitchen Cleaning</option>
+             <option>Window Cleaning</option>
+           </select>
+           <select id="property">
+diff --git a/styles.css b/styles.css
+index c3cae8b..c63e3a8 100644
+--- a/styles.css
++++ b/styles.css
+@@ -349,12 +349,15 @@ section { padding: 54px 4.8vw; position: relative; }
+ .benefit-strip small { opacity: .82; }
+ 
+ .pricing-grid {
+-  display: grid;
+-  grid-template-columns: repeat(5, 1fr);
++  display: flex;
++  flex-wrap: wrap;
++  justify-content: center;
+   gap: 18px;
+ }
+ .price-card {
+   position: relative;
++  flex: 1 1 190px;
++  max-width: 240px;
+   text-align: center;
+   padding: 27px 18px 22px;
+   border-radius: 22px;
+-- 
+2.43.0
+
