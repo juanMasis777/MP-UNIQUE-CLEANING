@@ -15,14 +15,13 @@
   </defs>
 
   <g filter="url(#shadow)">
-    <path d="M9 58.5L22.4 17H34.8L43.8 39.2L62.2 17H75.8L66.4 58.5H54.2L59.5 34.9L43.2 54.7H38.4L29.3 34.7L23.1 58.5H9Z" fill="url(#g1)"/>
-    <path d="M70.7 58.5L79.9 17H101.8C108.7 17 113.7 18.5 116.7 21.5C119.8 24.5 120.6 28.7 119.2 34.1C118 39.2 115.2 43.2 110.9 46.1C106.6 49 101.3 50.5 95 50.5H86.7L84.9 58.5H70.7ZM89.1 39.9H96.9C101.4 39.9 104.3 37.9 105.4 34C106.4 30.2 104.4 28.3 99.3 28.3H91.7L89.1 39.9Z" fill="url(#g1)"/>
+    <text x="6" y="55" font-family="Montserrat, Arial, sans-serif" font-size="48" font-weight="900" fill="url(#g1)" letter-spacing="-1">BM</text>
     <circle cx="10" cy="15" r="3" fill="#BFFFFF"/>
     <path d="M15.5 5L17.5 10.6L23 12.5L17.5 14.4L15.5 20L13.5 14.4L8 12.5L13.5 10.6L15.5 5Z" fill="#DFFFFF"/>
   </g>
 
   <g>
-    <text x="130" y="33" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">MP FRESH</text>
+    <text x="130" y="33" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">BRIGHT MAX</text>
     <text x="130" y="56" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="900" fill="url(#g2)" letter-spacing="0.5">CLEANING</text>
     <rect x="129" y="63" width="150" height="4" rx="2" fill="url(#g1)" opacity="0.95"/>
   </g>

@@ -52,7 +52,7 @@ function buildWhatsAppMessage() {
   const date = document.getElementById("date").value.trim();
   const details = document.getElementById("details").value.trim();
 
-  return `Hello MP Fresh Cleaning! I would like a free quote.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0AProperty Type: ${encodeURIComponent(property)}%0APreferred Date: ${encodeURIComponent(date)}%0ADetails: ${encodeURIComponent(details)}`;
+  return `Hello Bright Max Cleaning! I would like a free quote.%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0AService: ${encodeURIComponent(service)}%0AProperty Type: ${encodeURIComponent(property)}%0APreferred Date: ${encodeURIComponent(date)}%0ADetails: ${encodeURIComponent(details)}`;
 }
 
 quoteForm?.addEventListener("submit", (event) => {

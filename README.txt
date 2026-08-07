@@ -1,7 +1,7 @@
-MP Fresh Cleaning - Premium Website V5
+Bright Max Cleaning - Premium Website V5
 
 Cambios incluidos:
-- Nuevo logo premium en SVG: logo-mp-fresh-cleaning.svg
+- Nuevo logo premium en SVG: logo-bright-max-cleaning.svg
 - Header corregido para que el logo no quede pegado ni desconfigurado
 - Footer corregido con el logo nuevo
 - Blogs largos para SEO
