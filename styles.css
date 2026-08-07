@@ -349,12 +349,15 @@ section { padding: 54px 4.8vw; position: relative; }
 .benefit-strip small { opacity: .82; }
 
 .pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 18px;
 }
 .price-card {
   position: relative;
+  flex: 1 1 190px;
+  max-width: 240px;
   text-align: center;
   padding: 27px 18px 22px;
   border-radius: 22px;
