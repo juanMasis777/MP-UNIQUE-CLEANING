@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "13055550198"; // Cambia este numero por tu WhatsApp real en formato internacional. Ejemplo: 17861234567
+const WHATSAPP_NUMBER = "13059754420"; // Cambia este numero por tu WhatsApp real en formato internacional. Ejemplo: 17861234567
 
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
