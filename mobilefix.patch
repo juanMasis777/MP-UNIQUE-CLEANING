@@ -1,0 +1,38 @@
+From 3b975f1540dd8a81c173dc6165355cc9b47ca1d8 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 7 Aug 2026 18:25:29 +0000
+Subject: [PATCH] Fix mobile overlap: move 5-star rating card to top-right so
+ it no longer covers the Luxury Home Care badge
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_011fh33rbww27oh5yssCjz7C
+---
+ styles.css | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/styles.css b/styles.css
+index c63e3a8..792ae5a 100644
+--- a/styles.css
++++ b/styles.css
+@@ -630,6 +630,9 @@ section { padding: 54px 4.8vw; position: relative; }
+   .hero { padding-top: 34px; }
+   .hero h1 { letter-spacing: -2px; }
+   .photo-stack { display: none; }
++  .photo-overlay { left: 14px; bottom: 14px; padding: 11px 14px; }
++  .rating-card { top: 16px; right: 14px; bottom: auto; padding: 12px 14px; animation: none; }
++  .star-badge { width: 40px; height: 40px; font-size: 20px; }
+   .trust-row { position: static; margin-top: 25px; grid-template-columns: repeat(2, 1fr); }
+   .service-grid, .pricing-grid, .gallery-cards, .review-grid, .benefit-strip, .footer { grid-template-columns: 1fr; }
+   .quote-card form { grid-template-columns: 1fr; }
+@@ -638,7 +641,7 @@ section { padding: 54px 4.8vw; position: relative; }
+ @media (max-width: 520px) {
+   .brand-copy small { display: none; }
+   .hero-media { min-height: 360px; }
+-  .rating-card { right: 15px; bottom: 20px; transform: scale(.88); transform-origin: right bottom; }
++  .rating-card { top: 12px; right: 12px; bottom: auto; padding: 10px 12px; }
+   .hero-buttons { flex-direction: column; }
+   .btn { width: 100%; }
+   .trust-row { grid-template-columns: 1fr; }
+-- 
+2.43.0
+
