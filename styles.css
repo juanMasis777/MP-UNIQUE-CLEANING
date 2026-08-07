@@ -630,6 +630,9 @@ section { padding: 54px 4.8vw; position: relative; }
   .hero { padding-top: 34px; }
   .hero h1 { letter-spacing: -2px; }
   .photo-stack { display: none; }
+  .photo-overlay { left: 14px; bottom: 14px; padding: 11px 14px; }
+  .rating-card { top: 16px; right: 14px; bottom: auto; padding: 12px 14px; animation: none; }
+  .star-badge { width: 40px; height: 40px; font-size: 20px; }
   .trust-row { position: static; margin-top: 25px; grid-template-columns: repeat(2, 1fr); }
   .service-grid, .pricing-grid, .gallery-cards, .review-grid, .benefit-strip, .footer { grid-template-columns: 1fr; }
   .quote-card form { grid-template-columns: 1fr; }
@@ -638,7 +641,7 @@ section { padding: 54px 4.8vw; position: relative; }
 @media (max-width: 520px) {
   .brand-copy small { display: none; }
   .hero-media { min-height: 360px; }
-  .rating-card { right: 15px; bottom: 20px; transform: scale(.88); transform-origin: right bottom; }
+  .rating-card { top: 12px; right: 12px; bottom: auto; padding: 10px 12px; }
   .hero-buttons { flex-direction: column; }
   .btn { width: 100%; }
   .trust-row { grid-template-columns: 1fr; }
